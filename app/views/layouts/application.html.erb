@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KnuCho</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+ <div class= "navbar">
+  <ul>
+ 	<li><%= link_to "Home Page", controller: '/welcome' %></li>
+ 	<li><%= link_to "go fuck yourself"%></li>
+ 	<li></li>
+  </ul>
+ </div>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
